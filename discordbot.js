@@ -8,7 +8,7 @@ client.on('ready', () => {
 });
 
 client.on('messageCreate', msg => {
-  if (msg.content === '/ping') {
+  if (msg.content === 'ping') {
     msg.reply('pong');
   }
 });
